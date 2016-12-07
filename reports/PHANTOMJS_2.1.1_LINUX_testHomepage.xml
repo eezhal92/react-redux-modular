@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="testHomepage"
+    errors="1" failures="0" hostname="" id="" package="testHomepage" skipped="0"
+    tests="1" time="7.976" timestamp="Tue, 06 Dec 2016 09:05:17 GMT">
+  
+    <testcase name="User can see book form" time="7.976" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Test Homepage / User can see book form]:
+
+  TypeError: server.close is not a function
+    at F.User can see book form.client.end (/home/eezhal92/kerja/react-redux-modular/tests/testHomepage.js:12:14)
+    at F.End.complete (/home/eezhal92/kerja/react-redux-modular/node_modules/nightwatch/lib/api/client-commands/end.js:65:14)
+    at Object.&lt;anonymous&gt; (/home/eezhal92/kerja/react-redux-modular/node_modules/nightwatch/lib/api/client-commands/end.js:44:12)
+    at HttpRequest.&lt;anonymous&gt; (/home/eezhal92/kerja/react-redux-modular/node_modules/nightwatch/lib/index.js:358:18)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (/home/eezhal92/kerja/react-redux-modular/node_modules/nightwatch/lib/index.js:374:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (/home/eezhal92/kerja/react-redux-modular/node_modules/nightwatch/lib/http/request.js:157:16)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

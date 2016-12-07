@@ -1,0 +1,84 @@
+16:05:16.465 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+16:05:16.466 INFO - Launching a standalone Selenium Server
+2016-12-06 16:05:16.493:INFO::main: Logging initialized @369ms
+16:05:16.578 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+16:05:16.579 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+16:05:16.579 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:05:16.579 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+16:05:16.579 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:05:16.580 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:05:16.581 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+2016-12-06 16:05:16.634:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2016-12-06 16:05:16.673:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@32d992b2{/,null,AVAILABLE}
+2016-12-06 16:05:16.700:INFO:osjs.ServerConnector:main: Started ServerConnector@dc175ec{HTTP/1.1}{0.0.0.0:4444}
+2016-12-06 16:05:16.700:INFO:osjs.Server:main: Started @577ms
+16:05:16.700 INFO - Selenium Server is up and running
+16:05:17.742 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+16:05:17.793 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=./node_modules/phantomjs/lib/phantom/bin/phantomjs, name=Test Homepage, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]])
+16:05:17.817 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=./node_modules/phantomjs/lib/phantom/bin/phantomjs, name=Test Homepage, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]
+16:05:17.827 INFO - executable: /home/eezhal92/kerja/react-redux-modular/./node_modules/phantomjs/lib/phantom/bin/phantomjs
+16:05:17.827 INFO - port: 22004
+16:05:17.827 INFO - arguments: [--webdriver=22004, --webdriver-logfile=/home/eezhal92/kerja/react-redux-modular/phantomjsdriver.log]
+16:05:17.827 INFO - environment: {}
+[INFO  - 2016-12-06T09:05:18.521Z] GhostDriver - Main - running on port 22004
+16:05:18.606 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+[INFO  - 2016-12-06T09:05:18.692Z] Session [1c116ef0-bb93-11e6-be51-939d215548f3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-12-06T09:05:18.692Z] Session [1c116ef0-bb93-11e6-be51-939d215548f3] - page.customHeaders:  - {}
+[INFO  - 2016-12-06T09:05:18.692Z] Session [1c116ef0-bb93-11e6-be51-939d215548f3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-12-06T09:05:18.693Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1c116ef0-bb93-11e6-be51-939d215548f3
+16:05:18.712 INFO - Detected dialect: OSS
+16:05:18.742 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=./node_modules/phantomjs/lib/phantom/bin/phantomjs, name=Test Homepage, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]]
+16:05:19.003 INFO - Executing: [get: http://localhost:9000])
+[ERROR - 2016-12-06T09:05:24.121Z] Session [1c116ef0-bb93-11e6-be51-939d215548f3] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-12-06T09:05:24.122Z] Session [1c116ef0-bb93-11e6-be51-939d215548f3] - page.onError - stack:
+  requireEnsure (http://localhost:9000/main.js:61)
+  getComponent (http://localhost:9000/main.js:15445)
+  getComponentsForRoute (http://localhost:9000/main.js:31815)
+  (anonymous function) (http://localhost:9000/main.js:31833)
+  (anonymous function) (http://localhost:9000/main.js:8832)
+  forEach (:0)
+  mapAsync (http://localhost:9000/main.js:8831)
+  getComponents (http://localhost:9000/main.js:31832)
+  finishEnterHooks (http://localhost:9000/main.js:13826)
+  runTransitionHooks (http://localhost:9000/main.js:31549)
+  runEnterHooks (http://localhost:9000/main.js:31582)
+  (anonymous function) (http://localhost:9000/main.js:13819)
+  runTransitionHooks (http://localhost:9000/main.js:31549)
+  runChangeHooks (http://localhost:9000/main.js:31606)
+  finishMatch (http://localhost:9000/main.js:13816)
+  (anonymous function) (http://localhost:9000/main.js:13794)
+  next (http://localhost:9000/main.js:8794)
+  loopAsync (http://localhost:9000/main.js:8804)
+  matchRoutes (http://localhost:9000/main.js:32377)
+  match (http://localhost:9000/main.js:13790)
+  historyListener (http://localhost:9000/main.js:13971)
+  (anonymous function) (http://localhost:9000/main.js:31022)
+  dispatch (http://localhost:9000/main.js:15074)
+  (anonymous function) (http://localhost:9000/main.js:30877)
+  handleLocationChange (http://localhost:9000/main.js:30993)
+  (anonymous function) (http://localhost:9000/main.js:10088)
+  (anonymous function) (http://localhost:9000/main.js:9965)
+  (anonymous function) (http://localhost:9000/main.js:6450)
+  forEach (:0)
+  updateLocation (http://localhost:9000/main.js:6449)
+  (anonymous function) (http://localhost:9000/main.js:6510)
+  (anonymous function) (http://localhost:9000/main.js:6485)
+  next (http://localhost:9000/main.js:16354)
+  loopAsync (http://localhost:9000/main.js:16358)
+  confirmTransitionTo (http://localhost:9000/main.js:6475)
+  transitionTo (http://localhost:9000/main.js:6495)
+  handlePopState (http://localhost:9000/main.js:6333)
+
+  phantomjs://platform/console++.js:263 in error
+16:05:24.206 INFO - Done: [get: http://localhost:9000]
+16:05:25.280 INFO - Executing: [find elements: By.cssSelector: body])
+16:05:25.332 INFO - Done: [find elements: By.cssSelector: body]
+16:05:25.346 INFO - Executing: [delete session: 05965f39-7e77-4cc2-ab7c-1f71a1deb5ef])
+[INFO  - 2016-12-06T09:05:25.359Z] ShutdownReqHand - _handle - About to shutdown
+16:05:25.388 INFO - Done: [delete session: 05965f39-7e77-4cc2-ab7c-1f71a1deb5ef]
