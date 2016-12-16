@@ -1,1 +1,4 @@
+tests/reports
 node_modules
+selenium-debug.log
+npm-debug.log

@@ -1,6 +1,6 @@
-{
+module.exports = {
   "src_folders": ["tests"],
-  "output_folder": "reports",
+  "output_folder": "tests/reports",
   "custom_commands_path": "",
   "custom_assertions_path": "",
   "page_objects_path": "",
@@ -13,7 +13,7 @@
     "host" : "127.0.0.1",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "/usr/bin/chromedriver",
+      "webdriver.chrome.driver" : require('chromedriver').path,
       "webdriver.gecko.driver" : "",
       "webdriver.edge.driver" : ""
     }
